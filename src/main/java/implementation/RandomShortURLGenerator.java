@@ -14,10 +14,13 @@ public class RandomShortURLGenerator implements IShortURLGenerator {
 
     @Override
     public String generateShortURL() {
+        char [] shortURLArray = new char[SHORT_URL_LENGTH];
         for (int i=0; i < SHORT_URL_LENGTH; i++){
-
+            shortURLArray[i] = ALLOWED_CHARACTERS.charAt(random.nextInt(SHORT_URL_LENGTH));
         }
+        String shortURL = new String(shortURLArray);
+        //TODO - puta DB check for existing URL in DB
 
-        return null;
+        return shortURL;
     }
 }

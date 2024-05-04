@@ -5,6 +5,7 @@ public class MainClass {
 
     public static void main(String[] args) {
         IShortURLGenerator shortURLGenerator = new RandomShortURLGenerator();
-        shortURLGenerator.generateShortURL();
+        String shortLink = shortURLGenerator.generateShortURL();
+        System.out.println("Short Link --->"+ shortLink);
     }
 }
