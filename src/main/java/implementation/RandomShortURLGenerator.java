@@ -3,6 +3,7 @@ package implementation;
 import interfaces.IShortURLGenerator;
 
 import java.util.Random;
+import java.util.stream.IntStream;
 
 public class RandomShortURLGenerator implements IShortURLGenerator {
 
@@ -13,8 +14,10 @@ public class RandomShortURLGenerator implements IShortURLGenerator {
 
     @Override
     public String generateShortURL() {
+        for (int i=0; i < SHORT_URL_LENGTH; i++){
 
-        System.out.println(random.ints());
+        }
+
         return null;
     }
 }
