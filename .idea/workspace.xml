@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ad5b5a-4b4f-49b8-87ac-5838f5679b36" name="Changes" comment="Tested short url generation using Random">
-      <change afterPath="$PROJECT_DIR$/src/main/java/implementation/BaseConversionShortURLGenerator.java" afterDir="false" />
+    <list default="true" id="46ad5b5a-4b4f-49b8-87ac-5838f5679b36" name="Changes" comment="Tested short url generation using base conversion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/implementation/BaseConversionShortURLGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementation/BaseConversionShortURLGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/IShortURLGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/IShortURLGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714791395571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tested short url generation using base conversion">
+      <created>1715913963289</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715913963289</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,14 +117,15 @@
     <MESSAGE value="Base structure for URL shortner algo" />
     <MESSAGE value="RandomShortURLGenerator added" />
     <MESSAGE value="Tested short url generation using Random" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested short url generation using Random" />
+    <MESSAGE value="Tested short url generation using base conversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested short url generation using base conversion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/implementation/BaseConversionShortURLGenerator.java</url>
-          <line>30</line>
+          <line>48</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

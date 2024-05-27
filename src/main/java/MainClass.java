@@ -12,5 +12,6 @@ public class MainClass {
 
         IShortURLGenerator baseConversionShortURLGenerator = new BaseConversionShortURLGenerator();
         System.out.println("Short Link --->"+ baseConversionShortURLGenerator.generateShortURL());
+        System.out.println("Long Link --->"+ baseConversionShortURLGenerator.getLongURL("1L9zO9O"));
     }
 }
